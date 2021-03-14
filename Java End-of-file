@@ -1,0 +1,20 @@
+//The challenge here is to read  lines of input until you reach EOF, then number and print all  lines of content.
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        int i=1;
+       while(in.hasNext()){
+           String a=in.nextLine();
+           System.out.println(i+" "+a);
+           i++;
+    }
+}
+}
