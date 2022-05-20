@@ -1,4 +1,4 @@
-//Given a string A, print Yes if it is a palindrome, print No otherwise.
+Given a string A, print Yes if it is a palindrome, print No otherwise.
 
 import java.io.*;
 import java.util.*;
