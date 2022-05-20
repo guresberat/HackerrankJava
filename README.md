@@ -1,3 +1,3 @@
-# HackerrankJava
+# HackerrankSolutions
 
-- My code solutions for hackerrank.com java challenges.
+- My code solutions for hackerrank.com challenges.
