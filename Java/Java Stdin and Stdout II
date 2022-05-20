@@ -1,4 +1,4 @@
-//In this challenge, you must read an integer, a double, and a String from stdin, then print the values according to the instructions.
+In this challenge, you must read an integer, a double, and a String from stdin, then print the values according to the instructions.
 
 import java.util.Scanner;
 
