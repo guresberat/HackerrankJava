@@ -1,7 +1,4 @@
-
 You are given a date. You just need to write the method,findDate, which returns the day on that date.
-
-
 
 import java.io.*;
 import java.math.*;
