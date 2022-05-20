@@ -1,4 +1,4 @@
-//Given a string,s , and an integer, k, write the function so that it finds the lexicographically smallest and largest substrings of length k.
+Given a string,s , and an integer, k, write the function so that it finds the lexicographically smallest and largest substrings of length k.
 
 import java.util.Scanner;
 
@@ -20,8 +20,6 @@ public class Solution {
                 largest = temp;
             }            
         }
-        // 'smallest' must be the lexicographically smallest substring of length 'k'
-        // 'largest' must be the lexicographically largest substring of length 'k'
         return smallest + "\n" + largest;
     }
 
