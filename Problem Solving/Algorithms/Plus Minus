@@ -1,0 +1,56 @@
+Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with 6 places after the decimal.
+
+import java.io.*
+import java.math.*
+import java.security.*
+import java.text.*
+import java.util.*
+import java.util.concurrent.*
+import java.util.function.*
+import java.util.regex.*
+import java.util.stream.*
+import kotlin.collections.*
+import kotlin.comparisons.*
+import kotlin.io.*
+import kotlin.jvm.*
+import kotlin.jvm.functions.*
+import kotlin.jvm.internal.*
+import kotlin.ranges.*
+import kotlin.sequences.*
+import kotlin.text.*
+
+/*
+ * Complete the 'plusMinus' function below.
+ *
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+ 
+ fun calculateRatio(number:Int, size:Int) : Double{
+     return (number.toDouble()/size.toDouble())
+ }
+
+fun plusMinus(arr: Array<Int>): Unit {
+    var zero = 0
+    var positive = 0
+    var negative = 0
+    arr.forEach{
+        if(it == 0){
+            zero++
+        }else if(it < 0){
+            negative++
+        }else{
+            positive++
+        }
+    }
+    println(calculateRatio(positive, arr.size))
+    println(calculateRatio(negative, arr.size))
+    println(calculateRatio(zero, arr.size))
+}
+
+fun main(args: Array<String>) {
+    val n = readLine()!!.trim().toInt()
+
+    val arr = readLine()!!.trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
+
+    plusMinus(arr)
+}
